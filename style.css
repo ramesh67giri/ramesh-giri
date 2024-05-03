@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.outer-background {
+  background-size: cover;
+  width: 100vw;
+  background-position: fixed;
+  background-image: linear-gradient(to left, #898686, #cdcece, #faf6f6);
+}
+
+.hambrger {
+  display: none;
+}
+
+nav {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0vw 10vw;
+
+}
+
+ul,
+li {
+  display: flex;
+}
+
+li,
+a {
+  text-decoration: none;
+  margin-left: 3vw;
+  font-size: 1.5vw;
+  font-family: Roboto, sans-serif;
+  color: black;
+  transition: 0.15s ease-in;
+}
+
+li,
+a:hover {
+  color: gray;
+}
+
+
+.icons i {
+  font-size: 2vw;
+  font-weight: 300;
+  margin-left: 1vw;
+  cursor: pointer;
+  color: black;
+  transition: 0.15s ease-in;
+}
+
+i:hover {
+  color: rgba(255, 255, 255, 0.431);
+}
+
+.hero-secrion {
+  width: 100vw;
+  height: calc(100vh - 10vh);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+}
+
+.left-side {
+  width: 50vw;
+  padding: 0vw 10vw;
+}
+
+.left-side img {
+
+  position: absolute;
+  left: 0;
+  top: 2vw;
+  height: 85vh;
+  margin-right: 3vw;
+}
+
+.right-side {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+span {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -4.5vw;
+  font-family: sans-serif;
+}
+
+.right-side h1 {
+  position: relative;
+  margin-bottom: 1vw;
+  width: 100%;
+  font-weight: 500;
+  font-size: 4vw;
+  font-family: Roboto, sans-serif;
+}
+
+.right-side p {
+  font-family: Roboto, sans-serif;
+  font-size: 1.7vw;
+  font-weight: 300;
+  margin-bottom: 3vw;
+  color: rgb(70, 68, 68);
+
+}
+
+button {
+
+  padding: 1vw 2vw;
+  border-radius: 1vw;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 1.2vw;
+  transition: 0.15s ease-in;
+
+}
+
+button:hover {
+  background-color: rgb(81, 80, 80);
+  color: white;
+
+}
+
+/* THIS is a about section  */
+.about-me {
+  width: 100vw;
+  height: 100vh;
+  padding: 3vw 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.about-me h2 {
+  margin-bottom: 2vw;
+  font-size: 3vw;
+  font-family: Roboto, sans-serif;
+}
+
+.about-me p {
+  text-align: center;
+  font-size: 1.2vw;
+  line-height: 2vw;
+  margin-bottom: 3vw;
+  font-family: Roboto, sans-serif;
+}
+
+.back-to-top i {
+  position: absolute;
+  bottom: 5vw;
+  right: 5vw;
+  font-size: 5vw;
+  cursor: pointer;
+  color: black;
+}
+
+.projects {
+  width: 100vw;
+  height: 100vh;
+  padding: 3vw 10vw;
+
+}
+
+.h2 {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 5vw;
+  font-size: 3vw;
+}
+
+.outer-project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right img,
+.left img {
+  width: 80%;
+}
+
+.right h3,
+.left h3 {
+  font-family: Roboto, sans-serif;
+  font-size: 2vw;
+  margin-bottom: 2vw;
+}
+
+.right p,
+.left p {
+  width: 80%;
+  font-family: 1vw;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 1vw;
+}
+
+.see-more {
+  font-size: 1vw;
+  margin-left: 0;
+  cursor: pointer;
+  text-decoration: underline;
+  display: flex;
+  justify-content: start;
+}
+
+.see-more-project {
+  font-size: 1.5vw;
+  margin-left: 0;
+  cursor: pointer;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-me {
+  width: 100vw;
+  height: 100vh;
+  padding: 5vw 10vw;
+}
+
+.h3 {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 5vw;
+  font-size: 3vw;
+}
+
+
+.h3 p {
+  font-size: 1.6vw;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+}
+
+.input-box {
+  width: 30vw;
+  font-size: 1.2vw;
+  padding: 0.7vw 2vw;
+  border-radius: 0.5vw;
+  border: 1px solid;
+}
+
+.area-box {
+  font-size: 1.2vw;
+  height: 30vh;
+  width: 30vw;
+  padding: 0.7vw 2vw;
+  border-radius: 0.5vw;
+  border: 1px solid;
+}
+
+.send {
+  width: 30%;
+}
+
+footer {
+  width: 100vw;
+  height: 10vh;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h4 {
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
